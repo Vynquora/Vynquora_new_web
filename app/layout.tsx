@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   creator: site.name,
   publisher: site.name,
   icons: {
-    icon: [{ url: site.logo, type: "image/png" }],
+    icon: [{ url: "/icon.png?v=2", type: "image/png" }],
     apple: [{ url: site.logo }],
   },
   openGraph: {
